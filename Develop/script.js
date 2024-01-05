@@ -9,7 +9,7 @@ $(function () {
     var currentDate = dayjs().format("dddd, MMMM D");
   
     // Update the text content of the element with id "currentDay" with the current date
-    $("#currentDay").text(currentDate);
+    $("#toDay").text(currentDate);
   
     // Function to dynamically set the class for each time block based on the current hour
     function updateHourlyStyles() {
